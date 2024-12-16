@@ -1,0 +1,131 @@
+/* Reset de styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f1f0ed;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Bannière */
+.banner {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Catégories */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Produits */
+.category-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 18px;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
